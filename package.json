@@ -1,0 +1,26 @@
+{
+  "name": "react-waypoint",
+  "version": "0.0.1",
+  "description": "Mixin for adding waypoint ability to a React component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jsxhint . && mocha start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fricke/react-waypoint"
+  },
+  "keywords": [
+    "react",
+    "waypoint"
+  ],
+  "author": "Chris Fricke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fricke/react-waypoint/issues"
+  },
+  "homepage": "https://github.com/fricke/react-waypoint",
+  "dependencies": {
+    "waypoint": "^0.2.8"
+  }
+}

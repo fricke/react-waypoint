@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/imakewebthings/jquery-waypoints.git' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'https://github.com/imakewebthings/jquery-waypoints.git',
+5 verbose cache add   null ]
+6 verbose cache add name=undefined spec="https://github.com/imakewebthings/jquery-waypoints.git" args=["https://github.com/imakewebthings/jquery-waypoints.git",null]
+7 verbose parsed url { protocol: 'https:',
+7 verbose parsed url   slashes: true,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: 'github.com',
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: 'github.com',
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/imakewebthings/jquery-waypoints.git',
+7 verbose parsed url   path: '/imakewebthings/jquery-waypoints.git',
+7 verbose parsed url   href: 'https://github.com/imakewebthings/jquery-waypoints.git' }
+8 silly lockFile a67d86b1-kewebthings-jquery-waypoints-git https://github.com/imakewebthings/jquery-waypoints.git
+9 verbose lock https://github.com/imakewebthings/jquery-waypoints.git /Users/chrisfricke/.npm/a67d86b1-kewebthings-jquery-waypoints-git.lock
+10 verbose addRemoteTarball [ 'https://github.com/imakewebthings/jquery-waypoints.git',
+10 verbose addRemoteTarball   null ]
+11 info retry fetch attempt 1 at 04:24:38
+12 verbose fetch to= /var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git
+13 http GET https://github.com/imakewebthings/jquery-waypoints.git
+14 http 200 https://github.com/imakewebthings/jquery-waypoints.git
+15 verbose tar unpack /var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git
+16 silly lockFile e5095e29-ings-jquery-waypoints-git-unpack tar:///var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git-unpack
+17 verbose lock tar:///var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git-unpack /Users/chrisfricke/.npm/e5095e29-ings-jquery-waypoints-git-unpack.lock
+18 silly lockFile 72c789b8-kewebthings-jquery-waypoints-git tar:///var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git
+19 verbose lock tar:///var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git /Users/chrisfricke/.npm/72c789b8-kewebthings-jquery-waypoints-git.lock
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error not a package /var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git
+22 silly lockFile e5095e29-ings-jquery-waypoints-git-unpack tar:///var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git-unpack
+23 silly lockFile e5095e29-ings-jquery-waypoints-git-unpack tar:///var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git-unpack
+24 silly lockFile 72c789b8-kewebthings-jquery-waypoints-git tar:///var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git
+25 silly lockFile 72c789b8-kewebthings-jquery-waypoints-git tar:///var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git
+26 silly lockFile a67d86b1-kewebthings-jquery-waypoints-git https://github.com/imakewebthings/jquery-waypoints.git
+27 silly lockFile a67d86b1-kewebthings-jquery-waypoints-git https://github.com/imakewebthings/jquery-waypoints.git
+28 error Error: ENOENT, open '/var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git-unpack/package.json'
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/npm/npm/issues>
+30 error System Darwin 13.3.0
+31 error command "node" "/usr/local/bin/npm" "install" "https://github.com/imakewebthings/jquery-waypoints.git"
+32 error cwd /Users/chrisfricke/Workspace/react-waypoint
+33 error node -v v0.10.33
+34 error npm -v 1.4.28
+35 error path /var/folders/v6/sprkdm8j19g0q9k1jysyb7ch0000gn/T/npm-82897-jGxxvy0m/github.com/imakewebthings/jquery-waypoints.git-unpack/package.json
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]
